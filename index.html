@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="content">
-        <div id="head">
+    <main id="content">
+        <header id="head">
             <h1>score thing</h1>
-        </div>
+        </header>
 
         <div class="container">
             <div>
@@ -41,13 +41,15 @@
             <button id="new-game" onclick="newGame()">new game</button>
             <button id="save-game" onclick="saveGame()">save game</button>
         </div>
-    </div>
-    <p id="history">previous: <span class="muted">none yet</span></p>
-    <p id="footer">
-    <p id="footer">
-    <span class="designer">designed by</span>
-    <a id="link" href="https://ukituro.netlify.app" target="_blank">ukituro</a>
-    </p>
+
+        <p id="history">previous: <span class="muted">none yet</span></p>
+    </main>
+
+    <footer id="footer">
+        <span class="designer">designed by</span>
+        <a id="link" href="https://ukituro.netlify.app" target="_blank">ukituro</a>
+    </footer>
+
     <script src="index.js"></script>
 </body>
 </html>
